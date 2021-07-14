@@ -1,0 +1,64 @@
+.wapper {
+  background-color: #0000002e;
+  height: calc(100% - 80px);
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-color: #00000091;
+}
+.title h2 {
+  color: white;
+}
+.person {
+  justify-content: space-around;
+}
+.person .person_item {
+  position: relative;
+  max-width: 322px;
+}
+.person .person_item img:first-child {
+  width: 322px;
+}
+
+.person .person_item .person_item__detail {
+  position: absolute;
+  bottom: 0;
+  background-color: #ff7f5070;
+  width: 100%;
+  text-align: left;
+  padding-left: 10px;
+  height: 130px;
+}
+.person .person_item .person_item__detail h5 {
+  color: blue;
+}
+.person .person_item .person_item__detail p {
+  color: white;
+}
+.person .person_item .glassdemo {
+  position: absolute;
+  top: 77px;
+  width: 83px;
+  right: 97px;
+  opacity: 0.8;
+}
+.boxglass {
+  background-color: white;
+  width: 1090px;
+  justify-content: center;
+  margin: auto;
+  margin-top: 89px;
+}
+.boxglass .glass__item {
+  height: 83px;
+  display: flex;
+  align-items: center;
+}
+.boxglass .glass__item img {
+  width: 145px;
+  /* height: 56px; */
+  cursor: pointer;
+}
